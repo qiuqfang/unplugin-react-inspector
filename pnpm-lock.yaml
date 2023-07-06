@@ -297,8 +297,8 @@ importers:
         specifier: ^7.0.1
         version: 7.0.1(@babel/plugin-syntax-flow@7.21.4)(@babel/plugin-transform-react-jsx@7.21.5)(eslint@8.40.0)(jest@27.5.1)(typescript@4.9.5)
       eslint-webpack-plugin:
-        specifier: ^3.1.1
-        version: 3.2.0(eslint@8.40.0)(webpack@5.82.1)
+        specifier: ^4.0.0
+        version: 4.0.0(eslint@8.40.0)(webpack@5.82.1)
       file-loader:
         specifier: ^6.2.0
         version: 6.2.0(webpack@5.82.1)
@@ -7368,16 +7368,16 @@ packages:
     resolution: {integrity: sha512-pZnmmLwYzf+kWaM/Qgrvpen51upAktaaiI01nsJD/Yr3lMOdNtq0cxkrrg16w64VtisN6okbs7Q8AfGqj4c9fA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  /eslint-webpack-plugin@3.2.0(eslint@8.40.0)(webpack@5.82.1):
-    resolution: {integrity: sha512-avrKcGncpPbPSUHX6B3stNGzkKFto3eL+DKM4+VyMrVnhPc3vRczVlCq3uhuFOdRvDHTVXuzwk1ZKUrqDQHQ9w==}
-    engines: {node: '>= 12.13.0'}
+  /eslint-webpack-plugin@4.0.0(eslint@8.40.0)(webpack@5.82.1):
+    resolution: {integrity: sha512-eM9ccGRWkU+btBSVfABRn8CjT7jZ2Q+UV/RfErMDVCFXpihEbvajNrLltZpwTAcEoXSqESGlEPIUxl7PoDlLWw==}
+    engines: {node: '>= 14.15.0'}
     peerDependencies:
-      eslint: ^7.0.0 || ^8.0.0
+      eslint: ^8.0.0
       webpack: ^5.0.0
     dependencies:
       '@types/eslint': 8.37.0
       eslint: 8.40.0
-      jest-worker: 28.1.3
+      jest-worker: 29.5.0
       micromatch: 4.0.5
       normalize-path: 3.0.0
       schema-utils: 4.0.1
@@ -9829,15 +9829,6 @@ packages:
       '@types/node': 20.4.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
-
-  /jest-worker@28.1.3:
-    resolution: {integrity: sha512-CqRA220YV/6jCo8VWvAt1KKx6eek1VIHMPeLEbpcfSfkEeWyBNppynM/o6q+Wmw+sOhos2ml34wZbSX3G13//g==}
-    engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
-    dependencies:
-      '@types/node': 20.4.0
-      merge-stream: 2.0.0
-      supports-color: 8.1.1
-    dev: false
 
   /jest-worker@29.5.0:
     resolution: {integrity: sha512-NcrQnevGoSp4b5kg+akIpthoAFHxPBcb5P6mYPY0fUNT+sSvmtu6jlkEle3anczUKIKEbMxFimk9oTP/tpIPgA==}
